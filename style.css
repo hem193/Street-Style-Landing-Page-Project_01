@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: row;
+  width: 87.3rem;
+}
+.hero-container {
+  /* background-color: magenta; */
+  height: 31.6rem;
+}
+.list {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-weight: 1000;
+  margin-top: 2rem;
+  margin-left: 12rem;
+  margin-right: 5rem;
+}
+.list-item {
+  margin: 2rem;
+}
+
+.button-group {
+  display: flex;
+  margin: 3rem;
+}
+.search-icon {
+  margin-right: 2rem;
+}
+.nav-button {
+  background: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 0.5rem;
+}
+
+.square {
+  margin-left: 10rem;
+  /* background-color: green; */
+  margin-bottom: 10px;
+}
+.square img {
+  transform: translate(4.1rem, 10.5rem);
+}
+.navbar-container img {
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+.globe img {
+  height: 55px;
+  /* background-color: red; */
+
+  transform: translate(10rem, -16rem);
+}
+
+.image {
+  transform: translate(9rem, -18rem);
+}
+.star img {
+  height: 45px;
+  /* background-color: greenyellow; */
+  transform: translate(6.8rem, 8.5rem);
+}
+.star1 img {
+  height: 40px;
+  /* background-color: greenyellow; */
+  transform: translate(45rem, -14rem);
+}
+.hero-container-right h1 {
+  /* background-color: greenyellow; */
+  margin-left: 18rem;
+  width: 60rem;
+  font-family: "Orbitron", sans-serif;
+  font-size: 3em;
+  text-align: end;
+  margin-bottom: 25px;
+  margin-top: -35rem;
+}
+
+.hero-container .hero-description {
+  /* background-color: yellow; */
+  /* text-indent: 4rem; */
+  /* transform: translate(20rem, -32rem); */
+  /* display: flex; */
+  width: 36rem;
+  text-align: center;
+  margin-left: 39rem;
+}
+.button-email {
+  /* transform: translate(40rem, -30rem); */
+  margin-top: 4rem;
+  margin-left: 45rem;
+  margin-right: 29px;
+  background: none;
+  border-radius: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.button-join {
+  /* transform: translate(40rem, -30rem); */
+  background: none;
+  border-radius: 0.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.contact-heading {
+  margin-left: 51rem;
+
+  margin-top: 2rem;
+}
+.icons {
+  /* transform: translate(42.5rem, -26.1rem); */
+  margin-left: 48rem;
+  margin-top: 2rem;
+}
+.icons img {
+  height: 29px;
+  margin-top: -1rem;
+  margin-right: 10px;
+  margin-left: 0.5rem;
+}
